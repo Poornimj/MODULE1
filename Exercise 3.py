@@ -1,8 +1,7 @@
 #Exercise3
-import math
-rec_length = float(input("What is the length of the rectangle? "))
-rec_width = float(input("What is the width of the rectangle? "))
-peri_rec = 2*rec_length + 2*rec_width
-area_rec = rec_length*rec_width
-print(f"The perimeter of the rectangle is: {peri_rec:.1f}")
-print(f"The perimeter of the rectangle is: {area_rec:.1f}")
+rectangleLength = float(input("What is the length of the rectangle? "))
+rectangleWidth = float(input("What is the width of the rectangle? "))
+periOfRectangle= 2*rectangleLength + 2*rectangleWidth
+areaOfRectangle = rectangleLength*rectangleWidth
+print(f"The perimeter of the rectangle is: {periOfRectangle:.1f}")
+print(f"The area of the rectangle is: {areaOfRectangle:.1f}")
